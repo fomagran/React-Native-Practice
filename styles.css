@@ -1,15 +1,13 @@
-red {
-  color: red !important;
+h1 {
+  border-style: solid;
+  border-block-end-color: red;
+  border-block-start-color: blue;
+  writing-mode: vertical-rl;
 }
 
-#yellow {
-  color: yellow;
-}
-
-.green {
-  color: green;
-}
-
-blue {
-  color: blue;
+h2 {
+  border-style: solid;
+  border-block-end-color: red;
+  border-block-start-color: blue;
+  writing-mode: horizontal-tb;
 }
